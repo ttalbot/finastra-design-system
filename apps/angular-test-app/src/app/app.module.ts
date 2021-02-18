@@ -33,6 +33,7 @@ import { ChangelogDemoComponent } from './components/changelog-demo/changelog-de
 import { SearchInputDemoComponent } from './components/search-input-demo/search-input-demo.component';
 import { BreadcrumbDemoComponent } from './components/breadcrumb-demo/breadcrumb-demo.component';
 import { ToasterDemoComponent } from './components/toaster-demo/toaster-demo.component';
+import { MessagePageDemoComponent } from './components/message-page-demo/message-page-demo.component';
 
 import { GlobalSearchModule } from '@ffdc/uxg-angular-components/global-search';
 import { RepeaterModule } from '@ffdc/uxg-angular-components/repeater';
@@ -69,6 +70,7 @@ import {
   VideoThumbnailDemoComponent,
   VideoDialogComponent
 } from './components/video-thumbnail/video-thumbnail.component';
+import { MessagePageModule } from '@ffdc/uxg-angular-components/message-page';
 
 @NgModule({
   declarations: [
@@ -102,7 +104,8 @@ import {
     BreadcrumbDemoComponent,
     ToasterDemoComponent,
     VideoThumbnailDemoComponent,
-    VideoDialogComponent
+    VideoDialogComponent,
+    MessagePageDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -138,12 +141,12 @@ import {
     EntityMenuModule,
     ColorSketchModule,
     AccountCardModule,
-    EntityMenuModule,
     UxgSearchInputModule,
     UXGChangelogModule,
     UxgBreadcrumbModule,
     ToasterModule,
-    VideoThumbnailModule
+    VideoThumbnailModule,
+    MessagePageModule
   ],
   providers: [],
   exports: [],

@@ -952,6 +952,35 @@
           "styleext": "scss"
         }
       }
+    },
+    "message-page": {
+      "projectType": "library",
+      "root": "libs/angular-components/message-page",
+      "sourceRoot": "libs/angular-components/message-page",
+      "prefix": "uxg",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/angular-components/message-page/tsconfig.lib.json",
+              "libs/angular-components/message-page/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/angular-components/message-page/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/angular-components/message-page/jest.config.js"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "styleext": "scss"
+        }
+      }
     }
   },
   "cli": {

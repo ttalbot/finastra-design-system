@@ -24,6 +24,7 @@ import { ChangelogDemoComponent } from './components/changelog-demo/changelog-de
 import { BreadcrumbDemoComponent } from './components/breadcrumb-demo/breadcrumb-demo.component';
 import { ToasterDemoComponent } from './components/toaster-demo/toaster-demo.component';
 import { VideoThumbnailDemoComponent } from './components/video-thumbnail/video-thumbnail.component';
+import { MessagePageDemoComponent } from './components/message-page-demo/message-page-demo.component';
 
 export const nestedRoutes: { title: string; routes: Routes }[] = [
   {
@@ -61,7 +62,8 @@ export const nestedRoutes: { title: string; routes: Routes }[] = [
       { path: 'changelog', component: ChangelogDemoComponent, data: { title: 'Changelog' } },
       { path: 'breadcrumb', component: BreadcrumbDemoComponent, data: { title: 'Breadcrumb' } },
       { path: 'toaster', component: ToasterDemoComponent, data: { title: 'Toaster' } },
-      { path: 'video-thumbnail', component: VideoThumbnailDemoComponent, data: { title: 'Video Thumbnail' } }
+      { path: 'video-thumbnail', component: VideoThumbnailDemoComponent, data: { title: 'Video Thumbnail' } },
+      { path: 'message-page', component: MessagePageDemoComponent, data: { title: 'Message Page' } }
     ]
   }
 ].map((groups) => {
