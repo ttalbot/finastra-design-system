@@ -1,0 +1,6 @@
+{
+  "packages": {
+    "themes/angular-theme/": {},
+    "libs/angular-components/": {}
+  }
+}
