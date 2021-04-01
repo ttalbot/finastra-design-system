@@ -10,7 +10,6 @@ import {
 } from '@angular/core';
 import { AvatarComponent } from './avatar.component';
 
-
 @Component({
   selector: 'uxg-avatar-list',
   templateUrl: './avatar-list.component.html'
