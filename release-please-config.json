@@ -1,10 +1,7 @@
 {
+  "release-type": "node",
   "packages": {
-    "themes/angular-theme": {
-      "release-type": "node"
-    },
-    "libs/angular-components": {
-      "release-type": "node"
-    }
+    "themes/angular-theme": {},
+    "libs/angular-components": {}
   }
 }
