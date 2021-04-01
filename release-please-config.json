@@ -1,4 +1,5 @@
 {
+  "bootstrap-sha": "c42edbdace53bac068d888ee8b88d5e1f34418fe",
   "packages": {
     "themes/angular-theme/": {},
     "libs/angular-components/": {}
