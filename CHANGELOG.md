@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.24.1](https://www.github.com/ttalbot/finastra-design-system/compare/v0.24.0...v0.24.1) (2021-04-01)
+
+
+### Bug Fixes
+
+* **theme:** small bug ([56751c8](https://www.github.com/ttalbot/finastra-design-system/commit/56751c84e4125010a897e2afe70990fd79f01f30))
+
 ## [0.24.0](https://www.github.com/ttalbot/finastra-design-system/compare/v0.23.21...v0.24.0) (2021-04-01)
 
 
