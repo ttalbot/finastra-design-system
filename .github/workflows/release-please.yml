@@ -12,7 +12,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          monorepos-tags: true
+          monorepo-tags: true
           package-name: finastra-design-system
       # The logic below handles the npm publication:
       - uses: actions/checkout@v2
